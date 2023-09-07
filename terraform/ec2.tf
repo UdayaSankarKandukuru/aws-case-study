@@ -8,6 +8,6 @@ resource "aws_instance" "ec2_instance" {
   associate_public_ip_address = true
 
   tags = {
-    "Name" : "ec2 instance U1"
+    "Name" : "ec2-instance-U1"
   }
 }
